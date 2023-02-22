@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <script src="jquery.js"></script>
+    <style>
+        * {
+            cursor: default;
+        }
+        body {
+            background-image: url("picture/t01ac5f004e4c80ba8a.jpg");
+            background-attachment: fixed;
+
+        }
+
+        .nav {
+            height: 100%;
+            line-height: 41px;
+            margin: 0;
+            padding: 0;
+            background: rgba(0, 0, 0, 0);
+            float: top;
+        }
+
+        .nav a {
+            display: inline-block;
+            height: 41px;
+            padding: 0 20px;
+            font-size: 12px;
+            color: #4c4c4c;
+            text-decoration: none;
+            margin-top: 0;
+        }
+
+        ul {
+            display: inline-block;
+            height: 41px;
+            padding: 0 20px;
+            font-size: 12px;
+            color: #4c4c4c;
+            text-decoration: none;
+            margin-top: 0;
+        }
+
+        a:hover {
+            background-color: #eee;
+            color: chocolate;
+        }
+
+        ul:hover {
+            float: right;
+            background-color: #eee;
+            background: rgba(0, 0, 0, 0);
+
+        }
+
+        .box1 {
+            width: 100%;
+            height: 44px;
+            background-color: plum;
+            background: rgba(0, 0, 0, .3);
+            float: top;
+        }
+
+        .box2 {
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("picture/34.png");
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+
+        .nav {
+            float: right;
+        }
+
+        #box2 {
+            width: 100%;
+            height: 360px;
+
+        }
+
+        span {
+            position: absolute;
+            top: 50%;
+            font-size: 30px;
+            color: cornflowerblue;
+            font-size: 50px;
+        }
+
+        .sp2 {
+            right: 0;
+        }
+
+        li {
+            width: 10px;
+            height: 10px;
+            float: left;
+            font-size: 25px;
+            color: white;
+            margin-left: 10px;
+
+        }
+
+        ul {
+            position: absolute;
+            bottom: 20px;
+            left: 45%;
+        }
+
+        .box3 {
+            width: 100%;
+            height: 200px;
+            background-color: salmon;
+            position:relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+
+        .a {
+            display: inline-block;
+            width: 400px;
+            transition: .7s;
+            overflow: hidden;
+        }
+
+        .a:hover {
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+
+        img {
+            width: 400px;
+        }
+
+        .box4 {
+            width: 100%;
+            height: 240px;
+        }
+
+        .box4-1 {
+            width: 100%;
+            height: 20%;
+            font-size: 30px;
+            font-family: 微软雅黑;
+            text-align: center;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+
+        .box5 {
+            width: 100%;
+            height: 360px;
+            background-color: rosybrown;
+        }
+
+        #box6 {
+            width: 100%;
+            height: 120px;
+            background: rgba(0, 0, 0, .5);
+            margin-top: 10px;
+            font-size: 20px;
+            font-family: 微软雅黑;
+            color: salmon;
+
+        }
+
+        .box6-1 {
+            width: 100%;
+            height: 80%;
+        }
+
+        .box6-1-1 {
+            width: 80px;
+            height: 80px;
+            border-radius: 40px;
+            background-image: url("picture/R-C.jpeg");
+            background-repeat: repeat;
+            background-size: 100%;
+            margin: auto;
+        }
+
+        .box6-2 {
+            opacity: 0.6;
+        }
+
+        .box7 {
+            float: right;
+            width: 50%;
+            height: 50%;
+        }
+
+        .box8 {
+            float: right;
+            width: 50%;
+            height: 50%;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-image: url("picture/1-210P3195A6429.jpg");
+        }
+
+        .box9 {
+            float: right;
+            width: 50%;
+            height: 50%;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-image: url("picture/jf.jpeg");
+        }
+
+        .box10 {
+            float: right;
+            width: 50%;
+            height: 50%;
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box2">
+        <div class="box1">
+            <div class="time"></div>
+            <div class="nav">
+                <a href="#box2">首页</a>
+                <a href="#box3">景区盘点</a>
+                <a href="register.html">登录</a>
+                <a href="#box6">关于我们</a>
+                <a href="#box5">概括</a>
+
+
+            </div>
+        </div>
+        <div ID="box2">
+            <!--    左右箭头-->
+            <span> &lt; </span>
+            <span class="sp2"> &gt; </span>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+<div class="box3" ID="box3">
+    <a class="a" href="01.html" target="_blank"><img
+            src="picture/2.png"></a>
+    <a class="a" href="02.html" target="_blank"><img
+            src="picture/8.png"></a>
+    <a class="a" href="03.html" target="_blank"><img
+            src="picture/14.png"></a>
+    <a class="a" href="04.html" target="_blank"><img
+            src="picture/20.png"></a>
+    <a class="a" href="05.html" target="_blank"><img
+            src="picture/27.png"></a>
+</div>
+<div class="box4">
+    <div class="box4-1">文明古国&emsp;世纪风采</div>
+    <div class="box4-2">领略过武夷山史诗般的雄浑气魄，却不知山涧响水的明澈玎琮；领略过桂林山水的清秀甜美，却不晓龙脊梯田的妖娆广阔；
+        领略过苏州园林“小桥流水人家”般的幽情，却不闻虎丘塔上“夕阳西下，断肠人在天涯”样的忧郁。陆地边缘，奔腾着生命的律动 密林深处，回
+        荡着古老部落的传说 高山之巅，隐藏着上古神兽的踪迹 俯瞰云下的世界 图形、线条的背后，是上天造物的秘密 数亿年前 这里的鱼群和沙子
+        一样多 如果潜到水面之下 会发现，我们正在飞越的是一座座山顶 蓬勃的生命，在此周而复始的循环 直到山林，改写了它的基因密码 直到海
+        水，更新了它的流浪轨迹.
+    </div>
+</div>
+<div class="box5" ID="box5">
+    <div class="box7">中国有5000年的文化历史，幅员辽阔，每个地区都有独特的自然环境。因此，在漫长的历史发展过程中，不同的地方逐渐形
+        成了不同的民居建筑形式，这些具有地方特色的人也深深地烙上了地理环境的烙印，生动地反映了人与自然的关系。 同时，由于气候和环境的
+        影响，住宅的材料和技术也有所不同。在发展过程中，不同地区的文化语境和生活习惯被整合在一起，形成了不同地区住宅的差异。
+    </div>
+    <div class="box8"></div>
+    <div class="box9"></div>
+    <div class="box10">中华民族有着悠久的历史。从遥远的古代起，中华各民族人民的祖先就劳动、生息、繁衍在中华大地上，共同为中华文明和
+        建立统一的多民族国家而贡献自己的才智。据中国政府考察统计正式确认的中华人民共和国民族共有56个。 习俗传统的不同，每个民族都有个
+        自的特点。南北方民族之间的生活习惯不同，文化素养不同。个民族历史文化不同，百花齐放，百家争鸣。
+    </div>
+</div>
+<div ID="box6">
+    <div class="box6-1">
+        <div class="box6-1-1"></div>
+    </div>
+    <div class="box6-2">小木块：物理与电子工程学院&emsp;22级应用物理学一班：&emsp;徐永强&emsp;&emsp;&emsp;赵旭东&emsp;&emsp;
+        &emsp;樊利
+    </div>
+</div>
+  <script>
+        var box = $('.box2');
+        // 通过数组把图片路径存储起来
+        var img_arr = ['picture/34.png', 'picture/35.png', 'picture/36.png', 'picture/37.png'];
+        // 获取li
+        var lis = $('li');
+        lis.eq(0).css('color', 'gray');
+        // 定义一个变量保存数组的索引
+        var index = 0;
+        // 开启定时器之前，隐藏span标签
+        $('span').hide();
+        var timer = interval()
+        //   当鼠标移入到div标签时，自动轮播结束，出来左右箭头
+        box.hover(function () {
+            //    结束轮播
+            clearInterval(timer);
+            //    显示span标签
+            $('span').show();
+        }, function () {
+            // 当鼠标移出div标签时，继续自动轮播
+            timer = interval();
+            //  隐藏span标签
+            $('span').hide();
+        });
+        //    点击左右箭头进行上一张或者下一张图片切换
+        $('span').eq(0).click(function () {
+            //    点击第一个箭头，实现上一张
+            //    对索引进行-1的操作，如果索引已经到了负数，就应该回到最后一张
+            index -= 1; //index = index -1
+            //    为了防止index变为负数
+            if (index < 0) {
+                index = img_arr.length - 1
+            }
+            lis.eq(index).css('color', 'gray').siblings().css('color', 'white');
+            //    切换背景图片
+            box.css('background-image', 'url(' + img_arr[index] + ')');
+        });
+        $('span').eq(1).click(function () {
+            //    点击第二个箭头，实现下一张
+            next();
+        });
+
+        // 以下代码需要多次执行，加入函数解决代码重复问题
+        function interval() {
+            let timer = setInterval(function () {
+                next(); //下一张图片的切换
+            }, 2000);
+            return timer;
+        }
+
+        //    下张图片的切换
+        function next() {
+            //    获取兄弟元素
+            //    每次执行，都应该要让index+1
+            index += 1; //index = index + 1
+            if (index == img_arr.length) {
+                //       如果当前索引值一旦累加到数组长度之后，重新赋值
+                index = 0;
+            }
+            //    修改样式
+            box.css('background-image', 'url(' + img_arr[index] + ')');
+            lis.eq(index).css('color', 'gray').siblings().css('color', 'white');
+
+        }
+    </script>
+
+</body>
+</html>
