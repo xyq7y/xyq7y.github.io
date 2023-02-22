@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册新用户</title>
+    <script src="jquery.js"></script>
+    <style>
+        * {
+            cursor: default;
+        }
+        body {
+            background-image: url("picture/t019f92baa923064ff8.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        div {
+            border: 1px solid gray;
+            width: 50%;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            border-radius: 20px;
+            margin: 0 auto;
+            background-color: burlywood;
+            background: rgba(0, 0, 0, .3);
+            float: right;
+
+        }
+
+        input {
+            display：inline;
+            padding: 0;
+            margin: 0;
+            background: rgba(0, 0, 0, .3);
+        }
+
+
+        div > h5, .on {
+            color: black;
+            font-size: 10px;
+        }
+
+        .bigwidth {
+            width: 80%;
+        }
+
+        input {
+            margin-top: 10px;
+            height: 23px;
+        }
+
+        select {
+            height: 29px;
+            display：inline;
+            padding: 0;
+            margin: 0;
+            background: rgba(0, 0, 0, .3);
+        }
+
+        #submit {
+            display: block;
+            width: 95%;
+            height: 36px;
+
+            background-color: skyblue;
+            color: beige;
+            border: none;
+            margin-top: 10px;
+        }
+
+        a:hover {
+            color: aqua;
+        }
+
+        #submit:hover {
+            background-color: aqua;
+        }
+
+        body {
+            background-color: bisque;
+        }
+        #a:hover{
+            color: rosybrown;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <h3>请注册</h3>
+    <h5>已有账号?
+        <a style="text-decoration: none " ID="enter">登录</a>
+    </h5>
+    <form action="index.html" target="_blank" method="get" name="用户注册">
+        用户名:<input placeholder="请输入用户名" class="bigwidth">
+        <br>
+        <span>手机号:</span>
+        <select>
+            <option selected="selected">+86</option>
+            <option>#</option>
+            <option>##</option>
+        </select>
+        <input placeholder="请输入手机号" style="width:67%"><br>
+        <span>密&emsp;码:</span>
+        <input type="password" placeholder="请输入密码" class="bigwidth">
+        <br>
+        <span>验证码:</span>
+        <input placeholder="请输入验证码" style="width:60%">
+        <input type="button" value="获取验证码" ID="a" style="height: 29px">
+        <br>
+        <input type="checkbox" checked="checked">
+        <span class="on">阅读并接收协议</span>
+        <br>
+        <input ID=submit type="submit" value="注册">
+    </form>
+</div>
+<script>
+    var i = $('#enter');
+    i.click(function () {
+        alert('点击注册即可回到主页')
+    });
+    var o= $('#a');
+    o.click(function () {
+        alert('请任意输入数字')
+    });
+</script>
+</body>
+</html>

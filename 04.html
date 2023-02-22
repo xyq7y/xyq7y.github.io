@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>海螺沟</title>
+    <style>
+        .box1 {
+            width: 100%;
+            height: 60px;
+            background-color: white;
+            font-family: STSong, "Microsoft yahei";
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .box2 {
+            width: 100%;
+            height: 360px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin-bottom: 10px;
+            background-image: url("picture/20.png");
+            overflow: hidden;
+        }
+
+        .box3 {
+            width: 90%;
+            height: 240px;
+            background-color: white;
+            overflow: hidden;
+            margin: auto;
+        }
+
+        .box4 {
+            width: 100%;
+            height: 360px;
+            background-color: burlywood;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .box18 {
+            width: 40%;
+            height: 50%;
+            position: absolute;
+            top: 650px;
+            left: 50px;
+            box-shadow: 10px 10px 10px 10px gray;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("picture/22.png");
+            overflow: hidden;
+        }
+
+        .div1 {
+            width: 50%;
+            height: 100%;
+            float: right;
+            font-family: STSong, "Microsoft yahei";
+            overflow: hidden;
+        }
+
+        .box6 {
+            width: 100%;
+            height: 120px;
+            background-color: white;
+            font-family: STSong, "Microsoft yahei";
+            overflow: hidden;
+        }
+
+        .box7 {
+            width: 90%;
+            height: 215px;
+            background-color: darkgrey;
+            margin: 0 auto;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .box16 {
+            width: 90%;
+            height: 215px;
+            background-color: pink;
+            margin: 0 auto;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .box13 {
+            width: 66%;
+            height: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            float: right;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("picture/26.png");
+            overflow: hidden;
+        }
+
+        .box14 {
+            width: 34%;
+            height: 50%;
+            background-color: white;
+            float: right;
+            margin-left: 0;
+            margin-right: 0;
+            font-family: STSong, "Microsoft yahei";
+            overflow: hidden;
+
+        }
+
+        .box15 {
+            width: 34%;
+            height: 50%;
+            background-color: white;
+            float: right;
+            margin-left: 0;
+            margin-right: 0;
+            border-top-style: solid;
+            border-top-color: pink;
+            font-family: STSong, "Microsoft yahei";
+            overflow: hidden;
+
+        }
+
+        .box10 {
+            width: 66%;
+            height: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            float: left;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("picture/25.png");
+            overflow: hidden;
+        }
+
+        .box11 {
+            width: 34%;
+            height: 50%;
+            background-color: white;
+            float: left;
+            margin-left: 0;
+            margin-right: 0;
+            font-family: STSong, "Microsoft yahei";
+            overflow: hidden;
+        }
+
+        .box12 {
+            width: 34%;
+            height: 50%;
+            right: 50%;
+            background-color: white;
+            float: left;
+            margin: 0;
+            font-family: STSong, "Microsoft yahei";
+            border-top-style: solid;
+            border-top-color: pink;
+            overflow: hidden;
+        }
+
+        .box8 {
+            width: 90%;
+            height: 350px;
+            background-color: white;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .box9 {
+            width: 100%;
+            height: 140px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("picture/t01e66d486b8e826270.jpg");
+            overflow: hidden;
+            margin-top: 10px;
+
+        }
+
+        .back {
+            display: block;
+            margin-top: 200px;
+            font-size: x-small;
+            width: 36px;
+            height: 36px;
+            background-color: palevioletred;
+            text-decoration: none;
+            float: right;
+            position: fixed;
+            overflow: hidden;
+            font-size: x-small;
+            border-radius: 18px;
+            background: rgba(0, 0, 0, .3);
+
+        }
+
+        .box17 {
+            width: 48%;
+            height: 58%;
+            float: left;
+            margin: 0;
+            background-repeat: repeat;
+            background-size: 100%;
+            background-image: url("picture/23.png");
+            overflow: hidden;
+        }
+
+        .box19 {
+            width: 48%;
+            height: 58%;
+            float: right;
+            background-color: gray;
+            margin: 0;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("picture/24.png");
+            overflow: hidden;
+        }
+
+        .box20 {
+            width: 48%;
+            height: 42%;
+            float: left;
+            background-color: white;
+            margin: 0;
+            color: palevioletred;
+            font-family: KaiTi;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .box21 {
+            width: 48%;
+            height: 42%;
+            float: right;
+            background-color: white;
+            color: palevioletred;
+            margin: 0;
+            font-family: KaiTi;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .back:hover {
+            background-color: chocolate;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        * {
+            cursor: default;
+        }
+
+        .div2 {
+            width: 100%;
+            height: 100px;
+            margin: 0 auto;
+        }
+
+        .div3 {
+            width: 90px;
+            height: 90px;
+            border-radius: 45px;
+            background-repeat: repeat;
+            background-size: 100%;
+            background-image: url("picture/R-C.jpeg");
+            margin: auto;
+        }
+
+        .div4 {
+            width: 33%;
+            height: 40%;
+            font-size: 30px;
+            text-align: center;
+            display: inline-block;
+            margin-top: 10px;
+            float: left;
+        }
+
+        .div5 {
+            width: 100%;
+            height: 20%;
+            font-size: 20px;
+            font-family: 微软雅黑;
+            text-align: center;
+            margin: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+<div>
+    <a class="back" href="index.html" target="_blank">&ensp;回到<br>&ensp;首页</a>
+    <div class="box1">关于海螺沟<br>
+        拥有“国家5A级旅游景区”、“国家级风景名胜区”、“国家级自然保护区”、“国家地质公园”、“国家森林公园”、中国唯一的“冰川森林公园”和国
+        家生态旅游示范区等多项顶桂冠，是“蜀山之王”贡嘎山的问鼎画卷和令人神往的“香巴拉门户”;距省会成都280公里，距州府康定情歌城76公里
+        ，距红色名城泸定县城50公里，是古代通往藏区的茶马古道的必经之地。
+    </div>
+    <div class="box2"></div>
+    <div class="box3">
+        <div class="div5">—— LANDSCAPE PROJECT ——<br>
+            冰川森林公园
+        </div>
+        <div class="div4">占地面积<br>906.13平方公里</div>
+        <div class="div4">最高海拔<br>3550米</div>
+        <div class="div4">地理位置<br>甘孜州</div>
+    </div>
+    <div class="box4">
+        <div class="box18"></div>
+        <div class="div1"><h2>红石公园</h2><br>
+            中国红石公园景区是大海螺沟景区的重要组成部分，这里每一块石头都被乔利橘色藻披上一件美丽的红色外衣，堆积在山谷中、河流旁，
+            宛如跳跃流动的音符，在雪山的映衬下，规模宏大，气贯长虹，瑰丽壮美，放眼全球，唯此一家，堪称为“世界的红色公园”。素有“中国
+            高山植物园”之称，极具科考价值。景区内除世界唯一的红石河谷以外，还有古朴神秘的茶马古道、蜿蜒曲折的威尔逊小道，巍峨圣洁的雅
+            家埂雪山群峰。
+        </div>
+    </div>
+
+    <div class="box8">
+        <div class="box17"></div>
+        <div class="box19"></div>
+        <div class="box20"><h2>燕子沟</h2></div>
+        <div class="box21"><h2>雅家情海</h2></div>
+    </div>
+    <div class="box6"><h5>贡嘎脚下的仙境：海螺沟 海螺沟位于贡嘎雪峰脚下，从海螺沟望贡嘎雪山，它仿佛一半在天上，一半在人间，美中还带
+        着一丝神奇。有歌唱</h5>
+        <h5>道，“康巴汉子站起来像座山，康巴女人的身影是草原”。可还有这样的康巴女子，她四肢的舒展、回旋，更像是比草原更为宽广的
+            天上的云</h5>
+        <h5>——云卷云舒，好似天女神舞。</h5>
+    </div>
+    <div class="box7">
+        <div class="box10"></div>
+        <div class="box11">1935年5月28日，毛泽东同志带领红一方面军从石棉安顺场到达磨西，夜宿磨西天主教堂，在此召开了著名的“磨西会
+           议”。
+        </div>
+        <div class="box12">至于基督教的圣诞节、伊斯兰教的“古尔邦节”，原有的宗教含义都已退居次要地位，而具备了喜庆、社交等多种功能，
+            融于社会生活中，成为民俗文化的一部分。
+        </div>
+    </div>
+    <div class="box16">
+        <div class="box13"></div>
+        <div class="box14">金花大将军为镇龙治水，劳碌奔波而积劳成疾，不久病逝。磨西人民怀着十分崇敬的心情，为缅怀纪念这位将军，将瓦
+            板山改名为金花梁子，在磨西镇建起金花庙。
+        </div>
+        <div class="box15">以祭献、崇拜、祈求、节庆等为内容的宗教礼仪，是人类文化活动的产物。随着历史的发展，宗教礼仪与世俗相融流变
+            ，逐渐成为民族或区域文化传统的一部分。
+        </div>
+    </div>
+</div>
+<div class="box9">
+    <div class="div2">
+        <div class="div3"></div>
+    </div>
+    <div>
+        友情链接：&emsp;&emsp;
+        <a href="https://www.hailuogou.com/info/friendship/" target="_blank">海螺沟官方网站</a>&emsp;&emsp;&emsp;&emsp;
+        <a href="http://www.99ditu.com/" target="_blank">世界卫星地图</a>&emsp;&emsp;&emsp;&emsp;
+        <a href="http://wlt.sc.gov.cn/" target="_blank">四川省文化和旅游厅</a>&emsp;&emsp;&emsp;&emsp;
+        <a href="https://www.hailuogou.com/wzhl/"
+           target="_blank">游玩攻略</a>
+    </div>
+</div>
+
+</div>
+</body>
+</html>

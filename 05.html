@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>巴山大峡谷</title>
+    <style>
+        .box1 {
+            width: 100%;
+            height: 60px;
+            background-color: white;
+            font-family: STSong, "Microsoft yahei";
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .box2 {
+            width: 100%;
+            height: 360px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin-bottom: 10px;
+            background-image: url("picture/27.png");
+            overflow: hidden;
+        }
+
+        .box3 {
+            width: 90%;
+            height: 240px;
+            background-color: white;
+            overflow: hidden;
+            margin: auto;
+        }
+
+        .box4 {
+            width: 100%;
+            height: 360px;
+            background-color: burlywood;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .box18 {
+            width: 40%;
+            height: 45%;
+            position: absolute;
+            top: 650px;
+            left: 50px;
+            box-shadow: 10px 10px 10px 10px gray;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("picture/29.png");
+            overflow: hidden;
+        }
+
+        .div1 {
+            width: 50%;
+            height: 100%;
+            float: right;
+            font-family: STSong, "Microsoft yahei";
+            overflow: hidden;
+        }
+
+        .box6 {
+            width: 100%;
+            height: 120px;
+            background-color: white;
+            font-family: STSong, "Microsoft yahei";
+            overflow: hidden;
+        }
+
+        .box7 {
+            width: 90%;
+            height: 215px;
+            background-color: darkgrey;
+            margin: 0 auto;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .box16 {
+            width: 90%;
+            height: 215px;
+            background-color: pink;
+            margin: 0 auto;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .box13 {
+            width: 66%;
+            height: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            float: right;
+            background-repeat: repeat;
+            background-size: 100%;
+            background-image: url("picture/33.png");
+            overflow: hidden;
+        }
+
+        .box14 {
+            width: 34%;
+            height: 50%;
+            background-color: white;
+            float: right;
+            margin-left: 0;
+            margin-right: 0;
+            font-family: STSong, "Microsoft yahei";
+            overflow: hidden;
+
+        }
+
+        .box15 {
+            width: 34%;
+            height: 50%;
+            background-color: white;
+            float: right;
+            margin-left: 0;
+            margin-right: 0;
+            border-top-style: solid;
+            border-top-color: pink;
+            font-family: STSong, "Microsoft yahei";
+            overflow: hidden;
+
+        }
+
+        .box10 {
+            width: 66%;
+            height: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            float: left;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("picture/32.png");
+            overflow: hidden;
+        }
+
+        .box11 {
+            width: 34%;
+            height: 50%;
+            background-color: white;
+            float: left;
+            margin-left: 0;
+            margin-right: 0;
+            font-family: STSong, "Microsoft yahei";
+            overflow: hidden;
+        }
+
+        .box12 {
+            width: 34%;
+            height: 50%;
+            right: 50%;
+            background-color: white;
+            float: left;
+            margin: 0;
+            font-family: STSong, "Microsoft yahei";
+            border-top-style: solid;
+            border-top-color: pink;
+            overflow: hidden;
+        }
+
+        .box8 {
+            width: 90%;
+            height: 350px;
+            background-color: white;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .box9 {
+            width: 100%;
+            height: 140px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("picture/t01e66d486b8e826270.jpg");
+            overflow: hidden;
+            margin-top: 10px;
+
+        }
+
+        .back {
+            display: block;
+            margin-top: 200px;
+            font-size: x-small;
+            width: 36px;
+            height: 36px;
+            background-color: palevioletred;
+            text-decoration: none;
+            float: right;
+            position: fixed;
+            overflow: hidden;
+            font-size: x-small;
+            border-radius: 18px;
+            background: rgba(0, 0, 0, .3);
+
+        }
+
+        .box17 {
+            width: 48%;
+            height: 58%;
+            float: left;
+            margin: 0;
+            background-repeat: repeat;
+            background-size: 100%;
+            background-image: url("picture/30.png");
+            overflow: hidden;
+        }
+
+        .box19 {
+            width: 48%;
+            height: 58%;
+            float: right;
+            margin: 0;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("picture/31.png");
+            overflow: hidden;
+        }
+
+        .box20 {
+            width: 48%;
+            height: 42%;
+            float: left;
+            background-color: white;
+            margin: 0;
+            color: palevioletred;
+            font-family: KaiTi;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .box21 {
+            width: 48%;
+            height: 42%;
+            float: right;
+            background-color: white;
+            color: palevioletred;
+            margin: 0;
+            font-family: KaiTi;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .back:hover {
+            background-color: chocolate;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        * {
+            cursor: default;
+        }
+
+        .div2 {
+            width: 100%;
+            height: 100px;
+            margin: 0 auto;
+        }
+
+        .div3 {
+            width: 90px;
+            height: 90px;
+            border-radius: 45px;
+            background-repeat: repeat;
+            background-size: 100%;
+            background-image: url("picture/R-C.jpeg");
+            margin: auto;
+        }
+
+        .div4 {
+            width: 33%;
+            height: 40%;
+            font-size: 30px;
+            text-align: center;
+            display: inline-block;
+            margin-top: 10px;
+            float: left;
+        }
+
+        .div5 {
+            width: 100%;
+            height: 20%;
+            font-size: 20px;
+            font-family: 微软雅黑;
+            text-align: center;
+            margin: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+<div>
+    <a class="back" href="index.html" target="_blank">&ensp;回到<br>&ensp;首页</a>
+    <div class="box1">关于巴山大峡谷<br>
+        国家AAAA级景区、大巴山国家地质公园、国家级森林公园、省级自然保护区、天然褶皱造型博物馆、野生崖柏保护地、四川十大红叶旅游目的
+        地、古巴人文化的富集地，国家级非物质文化遗产土家薅草锣鼓衍生地。
+    </div>
+    <div class="box2"></div>
+    <div class="box3">
+        <div class="div5">—— LANDSCAPE PROJECT ——<br>
+            天然褶皱博物馆
+        </div>
+        <div class="div4">占地面积<br>575.1平方公里</div>
+        <div class="div4">最高海拔<br>2480米</div>
+        <div class="div4">地理位置<br>四川盆地大巴山南麓</div>
+    </div>
+    <div class="box4">
+        <div class="box18"></div>
+        <div class="div1"><h2>红豆杉栈道</h2><br>
+            红豆杉栈道位于罗盘顶南坡，因栈道沿线有多颗红豆杉而得名，栈道东起于玻璃栈道，西止于巴盐古驿，总长度约8公里，沿途共经15个景
+            点、8个观景平台。在栈道上可春享百花奇放、遍地花香，夏观罗盘云海奇观，秋览漫山红叶，冬赏白雪皑皑、银装素裹。
+        </div>
+    </div>
+
+    <div class="box8">
+        <div class="box17"></div>
+        <div class="box19"></div>
+        <div class="box20"><h2>罗盘顶</h2></div>
+        <div class="box21"><h2>罗盘顶滑雪场</h2></div>
+    </div>
+    <div class="box6"><h5>巴文化是巴国王族和巴地各族所共同创造的全部物质文化、精神文化及其社会结构的总和。巴人或巴族是中国古代西南
+        及中南地区的一个族群。据专家学者考证，“巴”的地域范围大体界定在重庆全境、北起汉水、南至鄂西清江流域、东至鄂西、西达川东的地区。春秋战国之际向西发展，在民族迁徙的过程中，巴族的文化得以沿途传播，也得以与其他族群进行交流。巴文化在秦汉统一以后，开始融入华夏文化共同体。</h5>
+    </div>
+    <div class="box7">
+        <div class="box10"></div>
+        <div class="box11">“巴渝舞”是古代巴渝地区舞风刚烈、音乐铿锵，带有神鬼色彩的民间武舞、战舞。它来源于商末巴师伐纣的“前歌后
+            舞”。
+        </div>
+        <div class="box12">巴人有古朴凝重的民风，历来崇尚勇武。他们住干栏式房屋，楼上居人，楼下储粮，依山而聚，傍水而居;死后大多采
+            取古山葬、悬棺葬、岩穴葬、石硐葬、土坑葬。
+        </div>
+    </div>
+    <div class="box16">
+        <div class="box13"></div>
+        <div class="box14">春秋时代，巴国文化有所扩展，南及大巴山北缘，东至襄阳；战国初，巴国举国南迁至长江干流，先后在清江、川峡之
+            间至川东立国。这几个地方，留下了巴国文化的大量遗迹。
+        </div>
+        <div class="box15">上世纪90年代中期，被考古界誉为“巴国三星堆”的罗家坝遗址揭开神秘面纱，一批批文物出土，将巴人的历史娓娓道来。
+        </div>
+    </div>
+</div>
+<div class="box9">
+    <div class="div2">
+        <div class="div3"></div>
+    </div>
+    <div>
+        友情链接：&emsp;&emsp;
+        <a href="http://www.tbsdxg.com/" target="_blank">巴山大峡谷官网</a>&emsp;&emsp;&emsp;&emsp;
+        <a href="http://www.99ditu.com/" target="_blank">世界卫星地图</a>&emsp;&emsp;&emsp;&emsp;
+        <a href="http://wlt.sc.gov.cn/" target="_blank">四川省文化和旅游厅</a>&emsp;&emsp;&emsp;&emsp;
+        <a href="http://www.zgbsdxg.com/bsdxg-site//"
+           target="_blank">游玩攻略</a>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
